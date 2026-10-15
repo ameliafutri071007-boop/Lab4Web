@@ -49,7 +49,7 @@ Lab4Web/
 
 Langkah pertama adalah membuat folder `Lab4Web` dan file `lab4_box.html` berisi kerangka HTML5. Di dalam `<body>` ditambahkan elemen semantik `<header>` yang memuat judul `<h1>`. Tag `<meta name="viewport">` ditambahkan agar halaman tampil proporsional di berbagai ukuran layar.
 
-**![gambar1.png](screenshots/gambar1.png)**
+![gambar1.png](screenshots/gambar1.png)
 ![hasil1.png](screenshots/hasil1.png)
 > *Gambar 1. Dokumen dasar lab4_box.html (baru berisi header)*
 
