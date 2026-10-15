@@ -1,9 +1,5 @@
 # Laporan Praktikum Lab4Web
 
-**Nama:** Amelia Futri
-**Mata Kuliah:** Pemrograman Web  
-**Nim:** 312510348
-
 | | |
 |---|---|
 | **Nama** | Amelia Futri|
