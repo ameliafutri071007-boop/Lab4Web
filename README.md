@@ -49,6 +49,7 @@ Lab4Web/
 
 Langkah pertama adalah membuat folder `Lab4Web` dan file `lab4_box.html` berisi kerangka HTML5. Di dalam `<body>` ditambahkan elemen semantik `<header>` yang memuat judul `<h1>`. Tag `<meta name="viewport">` ditambahkan agar halaman tampil proporsional di berbagai ukuran layar.
 
+**[hasil]**
 ![gambar1.png](screenshots/gambar1.png)
 ![hasil1.png](screenshots/hasil1.png)
 > *Gambar 1. Dokumen dasar lab4_box.html (baru berisi header)*
@@ -59,9 +60,9 @@ Langkah pertama adalah membuat folder `Lab4Web` dan file `lab4_box.html` berisi 
 
 Selanjutnya dibuat tiga buah `<div>` di dalam `<section>`, masing-masing dengan class `div1`, `div2`, dan `div3`. CSS diberikan lewat tag `<style>` pada `<head>`: padding `10px` untuk semua `div` dan warna latar merah, kuning, hijau.
 
-> **[Tempel screenshot di sini]**
->![gambar2.png](screenshots/gambar2.png)
->![hasil2.png](screenshots/hasil2.png)
+> **[hasil]**
+>![gambar2.png](screenshots/gambar2.png.png)
+>![hasil2.png](screenshots/hasil2.png.png)
 > *Gambar 2. Element div tanpa float (tersusun vertikal)*
 
 **Analisis:** `<div>` adalah elemen *block-level*, sehingga secara default lebarnya memenuhi seluruh lebar induk dan setiap div berada di baris baru. Ketiga kotak karenanya tersusun ke bawah.
@@ -70,9 +71,9 @@ Selanjutnya dibuat tiga buah `<div>` di dalam `<section>`, masing-masing dengan 
 
 Agar ketiga kotak berjajar ke samping, ditambahkan `float: left;` pada selector `div`.
 
-> **[Tempel screenshot di sini]**
->![gambar3.png](screenshots/gambar3.png)
->![hasil3.png](screenshots/hasil3.png)
+> **[hasil]**
+>![gambar3.png](screenshots/gambar3.png.png)
+>![hasil3.png](screenshots/hasil3.png.png)
 > *Gambar 3. Box element dengan float: left (berjajar horizontal)*
 
 **Analisis:** elemen yang di-*float* dikeluarkan dari alur normal dokumen. Lebarnya menyesuaikan isi (*shrink-to-fit*), lalu elemen digeser ke kiri sehingga Div 1, Div 2, dan Div 3 tampil berdampingan. Akibat sampingannya, tinggi `<section>` menjadi nol karena semua anaknya mengambang.
@@ -81,9 +82,9 @@ Agar ketiga kotak berjajar ke samping, ditambahkan `float: left;` pada selector 
 
 Ditambahkan elemen `div4` setelah `div3`. Agar Div 4 tidak ikut naik ke samping float sebelumnya, diberikan `clear: left;` dan `float: none;`.
 
-> **[Tempel screenshot di sini]**
->![gambar4.png](screenshots/gambar4.png)
->![hasil4.png](screenshots/hasi4.png)
+> **[hasil]**
+>![gambar4.png](screenshots/gambar4.png.png)
+>![hasil4.png](screenshots/hasi4.png.png)
 > *Gambar 4. Hasil clear: left pada Div 4*
 
 **Analisis:** `clear: left` memerintahkan elemen untuk turun sampai tidak ada lagi float kiri di atasnya. Hasilnya Div 4 berada di baris baru di bawah Div 1-3 dan membentang selebar penuh.
