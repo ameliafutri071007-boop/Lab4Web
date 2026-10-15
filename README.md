@@ -84,7 +84,7 @@ Ditambahkan elemen `div4` setelah `div3`. Agar Div 4 tidak ikut naik ke samping 
 
 > **[hasil]**
 >![gambar4.png](screenshots/gambar4.png.png)
->![hasil4.png](screenshots/hasi4.png.png)
+>![hasil4.png](screenshots/hasil4.png.png)
 > *Gambar 4. Hasil clear: left pada Div 4*
 
 **Analisis:** `clear: left` memerintahkan elemen untuk turun sampai tidak ada lagi float kiri di atasnya. Hasilnya Div 4 berada di baris baru di bawah Div 1-3 dan membentang selebar penuh.
@@ -98,7 +98,7 @@ Dibuat folder `lab4_layout` berisi `home.html` dan `style.css`. File HTML dihubu
 
 > **[hasil]**
 > ![gambar5.png](screenshots/gambar5.png.png)
->![hasil5.png](screenshots/hasi5.png.png)
+>![hasil5.png](screenshots/hasil5.png.png)
 > *Gambar 7. Tampilan kerangka layout (belum diberi CSS)*
 
 **Analisis:** tanpa CSS, browser hanya menampilkan gaya bawaan: judul, link navigasi berjajar sebaris, dan teks footer. Struktur HTML sudah benar, tinggal diberi tampilan.
